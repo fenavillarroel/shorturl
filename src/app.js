@@ -10,7 +10,7 @@ const app = express();
 const urlsRoutes = require("./routes/urls");
 const shortRoute = require("./routes/short");
 
-mongoose.connect("mongodb://localhost/urls", { 
+mongoose.connect("mongodb://mongo/urls", { 
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true

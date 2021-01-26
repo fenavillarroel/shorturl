@@ -8,8 +8,6 @@ services:
         - mongo
     ports:
       - "8000:8000"
-    networks:
-      - nodeapp-network
     links:
       - mongo
   mongo:
@@ -21,6 +19,3 @@ services:
       - ./data:/data/db
     ports:
       - "27017:27017"
-  networks:
-    nodeapp-network:
-      driver: bridge
