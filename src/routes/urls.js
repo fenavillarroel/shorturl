@@ -8,7 +8,7 @@ const express = require("express");
 //const { route } = require("../app");
 const router = express.Router();
 //const domain = os.hostname() + ':' + 8000
-const domain = "localhost:" + 8000
+const domain = "melicl.ddns.net:" + 8000
 //const domain = process.env.DOMAIN
 console.log(domain);
 
